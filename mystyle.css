@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+header { 
+    background-color: white;
+    padding: 10px 20px;
+    }
+.logo{
+    vertical-align: middle;
+    height: 100%;
+}
+.text-logo{
+    font-size: 20px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+main { 
+        padding-top: 20px;
+    }
+.container{
+    background-color: white;
+    max-width: 991px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.top{
+  padding: 20px 50px;
+  border-bottom: 2px solid lightgrey;
+}
+.bottom{
+    height: 1000px;
+    background-color: purple;
+}
+.blue-button{
+    background-color: rgb(0, 166, 255);
+    color: white;
+    border: rgb(0, 166, 255);
+    border-style: solid;
+}
+.border-button{
+    background-color: transparent;
+    border-color: grey;
+    color: grey;
+}
+.button{
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
